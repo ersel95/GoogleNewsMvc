@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="NewsCollectionViewCell" id="gTV-IL-0wX" customClass="NewsCollectionViewCell" customModule="GoogleNewsMvc" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="478" height="409"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="478" height="409"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dLV-Y9-Cyv">
+                        <rect key="frame" x="0.0" y="8" width="478" height="150"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="150" id="ALR-mq-eF6"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="U2v-oB-SwV">
+                        <rect key="frame" x="8" y="166" width="462" height="45"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="45" id="dPw-nb-ocT"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Google News" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UQU-02-IQb">
+                        <rect key="frame" x="340" y="254.5" width="130" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="130" id="UiF-fW-w3n"/>
+                            <constraint firstAttribute="height" constant="25" id="ufu-vl-aXn"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description Label" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EHr-lj-xPv">
+                        <rect key="frame" x="8" y="227" width="462" height="19.5"/>
+                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="16"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="dLV-Y9-Cyv" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="3pO-8u-pHB"/>
+                <constraint firstItem="UQU-02-IQb" firstAttribute="top" secondItem="EHr-lj-xPv" secondAttribute="bottom" constant="8" id="3zB-kW-Bib"/>
+                <constraint firstItem="EHr-lj-xPv" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="5FZ-2h-O2p"/>
+                <constraint firstAttribute="trailing" secondItem="dLV-Y9-Cyv" secondAttribute="trailing" id="HHe-MR-c3G"/>
+                <constraint firstAttribute="trailing" secondItem="UQU-02-IQb" secondAttribute="trailing" constant="8" id="djG-QC-89L"/>
+                <constraint firstItem="EHr-lj-xPv" firstAttribute="top" secondItem="U2v-oB-SwV" secondAttribute="bottom" constant="16" id="fI2-Uv-GTL"/>
+                <constraint firstAttribute="trailing" secondItem="EHr-lj-xPv" secondAttribute="trailing" constant="8" id="hb5-hW-EUR"/>
+                <constraint firstItem="U2v-oB-SwV" firstAttribute="top" secondItem="dLV-Y9-Cyv" secondAttribute="bottom" constant="8" id="ofp-dg-jLe"/>
+                <constraint firstItem="U2v-oB-SwV" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="pB3-68-zqs"/>
+                <constraint firstAttribute="trailing" secondItem="U2v-oB-SwV" secondAttribute="trailing" constant="8" id="taV-CU-EoD"/>
+                <constraint firstItem="dLV-Y9-Cyv" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="8" id="vxE-fV-4DO"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="478" height="409"/>
+            <connections>
+                <outlet property="descriptionLabel" destination="EHr-lj-xPv" id="Jnm-cS-rAa"/>
+                <outlet property="mainImageView" destination="dLV-Y9-Cyv" id="ZKv-nG-4ko"/>
+                <outlet property="titleLabel" destination="U2v-oB-SwV" id="I6H-z1-jIZ"/>
+            </connections>
+            <point key="canvasLocation" x="447.82608695652175" y="226.00446428571428"/>
+        </collectionViewCell>
+    </objects>
+</document>

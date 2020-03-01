@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "DC604CDD-9DFB-4837-901E-50A71D46D9AE"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CDEE2772-F24A-4B52-91B9-F9CFF596852A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GoogleNewsMvc/Controller/MainViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "retrieveData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5C7A3027-79F3-4065-AD6C-FC7A96343B7F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GoogleNewsMvc/Controller/MainViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
+            landmarkName = "retrieveData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CE52E626-DC21-48F0-A086-7DD2E0D40E6F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GoogleNewsMvc/Controller/MainViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "retrieveData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DB30A535-E394-4FEA-B40A-9DDB412E0209"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GoogleNewsMvc/Controller/MainViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "retrieveData()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "DB30A535-E394-4FEA-B40A-9DDB412E0209 - cac0d8df99027ee6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GoogleNewsMvc.MainViewController.(retrieveData in _1FC1735E58B93B10F219D2496AA3517C)() -&gt; ()"
+                  moduleName = "GoogleNewsMvc"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ersel/Desktop/GoogleNewsMvc/GoogleNewsMvc/Controller/MainViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "1314">
+               </Location>
+               <Location
+                  uuid = "DB30A535-E394-4FEA-B40A-9DDB412E0209 - f22467b2bf1fbc41"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in GoogleNewsMvc.MainViewController.(retrieveData in _1FC1735E58B93B10F219D2496AA3517C)() -&gt; ()"
+                  moduleName = "GoogleNewsMvc"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ersel/Desktop/GoogleNewsMvc/GoogleNewsMvc/Controller/MainViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "70"
+                  endingLineNumber = "70"
+                  offsetFromSymbolStart = "52">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D0A76226-04B2-4886-8EDA-ABC4DC3BAD86"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GoogleNewsMvc/Controller/MainViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
+            landmarkName = "pullDatas(firstLogin:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D0A76226-04B2-4886-8EDA-ABC4DC3BAD86 - 18bfa22686affd57"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Optional&lt;Swift.Bool&gt;, Swift.Optional&lt;GoogleNewsMvc.Articles&gt;, Swift.Optional&lt;Swift.Int&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in GoogleNewsMvc.MainViewController.(pullDatas in _1FC1735E58B93B10F219D2496AA3517C)(firstLogin: Swift.Bool) -&gt; ()"
+                  moduleName = "GoogleNewsMvc"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ersel/Desktop/GoogleNewsMvc/GoogleNewsMvc/Controller/MainViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "88"
+                  endingLineNumber = "88"
+                  offsetFromSymbolStart = "1904">
+               </Location>
+               <Location
+                  uuid = "D0A76226-04B2-4886-8EDA-ABC4DC3BAD86 - d8c955520b2eba71"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #2 (Swift.Optional&lt;Swift.Bool&gt;, Swift.Optional&lt;GoogleNewsMvc.Articles&gt;, Swift.Optional&lt;Swift.Int&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in GoogleNewsMvc.MainViewController.(pullDatas in _1FC1735E58B93B10F219D2496AA3517C)(firstLogin: Swift.Bool) -&gt; ()"
+                  moduleName = "GoogleNewsMvc"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ersel/Desktop/GoogleNewsMvc/GoogleNewsMvc/Controller/MainViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "89"
+                  endingLineNumber = "89"
+                  offsetFromSymbolStart = "52">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D580F43D-66A2-4BC5-ACCB-60027A0A2CC7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GoogleNewsMvc/Controller/MainViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
+            landmarkName = "pullDatas(firstLogin:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
